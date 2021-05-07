@@ -1,0 +1,11 @@
+---
+application:
+  name: "supreme-system"
+  project: "R"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-supreme-system"
+  routes:
+  - application_name: "supreme-system"
+    paths:
+    - "/*"
